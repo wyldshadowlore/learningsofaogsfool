@@ -2,12 +2,12 @@
 
 # The basics of a function
 
-import random
+import random  ## Import Random Module
 
-def attack():
-    print("Dude attacks: ")
-    damage = random.randrange(1, 10, 1)
-    print("Attacked for ", damage, " damage.")
+def attack():  ## Initialize Function
+    print("Dude attacks: ")  ## Print a happy line
+    damage = random.randrange(1, 10, 1)  ## Randrange(Lowervalue, uppervalue, stepping)
+    print("Attacked for ", damage, " damage.")  ##print the result
     
 attack()
 
