@@ -83,3 +83,9 @@ def aFunction(someStuff):  # pass an arguement to the function
   
 userStuff = input("Please enter some stuff: ")  #get the user input
 aFunction(userStuff)  #Pass the user arguement to the function.
+
+#When the amount of arguments is unknown
+def aFunction(**someJunk):
+  print("This was passed from the function call: " + someJunk["junk2"])
+
+aFunction(junk1 = "Some Junk 1", junk2 = "Some junk 2")
