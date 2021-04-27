@@ -66,3 +66,20 @@ elif yourInput == "C" or yourInput == "c":
   print("You chose carrot.")
 else:
   print("Sorry you're not hungry.")
+  
+"""
+Creating it as a function
+"""
+#A basic function
+def aFunction():  #This creates the function
+  print("This is a function call")  #Normal Code
+  
+aFuction() #This calls the function
+
+#Passing an arguement to a function
+
+def aFunction(someStuff):  # pass an arguement to the function
+  print(someStuff)  #print the passed arguement
+  
+userStuff = input("Please enter some stuff: ")  #get the user input
+aFunction(userStuff)  #Pass the user arguement to the function.
